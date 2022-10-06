@@ -11,18 +11,18 @@
 }
 
 ::-webkit-scrollbar-track {
-  background-color: transparent;
+  background-color: #d6ecdd;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #d3e0e8;
+  background-color: #1f1e1d;
   border-radius: 20px;
   border: 6px solid transparent;
   background-clip: content-box;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #b8c5d2;
+  background-color: #636970;
 }
 
 body {
@@ -39,19 +39,22 @@ a {
   color: inherit;
 }
 
-/* @media screen and (max-width: 1000px) {
-    body {
-        flex-direction: column;
-        height: unset;
-        overflow: unset;
-        overflow-x: hidden;
+@media screen and (max-width: 1000px) {
+    #header {
+        font-size: 14vw !important;
     }
-
-    body > div { 
-        flex: 1; 
-        height: unset; 
+    #content {
+        font-size: 4vw !important;
+        flex-direction: column !important;
     }
-} */
+    #stuff {
+        max-width: 20rem !important;
+    }
+    .menu {
+        top: 3vh !important;
+        right: 4vw !important;
+    }
+}
 
 #div1 {
   background-color: #d6ecdd;
